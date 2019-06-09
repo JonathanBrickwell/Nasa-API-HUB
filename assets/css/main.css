@@ -1,0 +1,35 @@
+body {
+  font-family: "Titillium Web", sans-serif;
+  background-color: #000;
+  color: #fefefe; }
+
+nav {
+  background-color: #000; }
+
+.nav-link {
+  font-size: 1.47em !important; }
+
+.nav-item:nth-child(1), .nav-item:nth-child(2) {
+  border-right: 1px solid #7d7d7d; }
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.4); }
+
+.mid-text-size {
+  font-size: 14pt; }
+
+a {
+  color: white; }
+
+.disclaimer {
+  font-style: italic; }
+
+.jumbotron {
+  background-color: #232a3e;
+  padding: 0 !important; }
+
+.align-items-middle {
+  display: flex;
+  align-items: center;
+  /*Aligns vertically center */
+  justify-content: center; }

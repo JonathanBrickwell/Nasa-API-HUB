@@ -1,0 +1,46 @@
+@import 'variables';
+
+body {
+    font-family: $spaceMono;
+    background-color: $navbarBg;
+    color: $lightText;
+}
+
+nav {
+    background-color: $navbarBg;
+}
+
+.nav-link {
+    font-size: $navLinkSize;
+}
+
+.nav-item:nth-child(1), .nav-item:nth-child(2) {
+    border-right: $listItem;
+}
+
+.carousel-caption {
+    background-color: $carouselCaption;
+}
+
+.mid-text-size {
+    font-size: $midTextSize;
+}
+
+a {
+    color:white;
+}
+
+.disclaimer {
+    font-style: $disclaimer;
+}
+
+.jumbotron {
+    background-color: $jumbotronBG;
+    padding: 0 !important;
+}
+
+.align-items-middle {
+    display: flex; 
+    align-items: center;  /*Aligns vertically center */
+    justify-content: center;
+}
